@@ -18,7 +18,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    project: 'tsconfig.json',
+    project: 'Frontend/tsconfig.json',
   },
   plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks'],
   rules: {
